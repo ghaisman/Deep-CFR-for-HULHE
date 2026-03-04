@@ -1,4 +1,4 @@
-# Deep-CFR-for-HUNLHE
+# Deep-CFR-for-HULHE
 A Deep CFR poker bot for heads-up 4/8 limit Texas Hold'em.
 
 Based on Noam Brown's Deep CFR architecture (https://arxiv.org/pdf/1811.00164) with changes made to the network structure.
