@@ -9,3 +9,6 @@ engine.py contains all of the game logic and encodes states as a tuple. The main
 network.py contains the network architecture used for the Strategy and Advantage networks. As written, they are exactly the same as in the paper, with a dim of 256 used for training.
 
 traversal.py contains the cfr traversal logic. Almost identical to MCCFR traversal, but uses slightly modified regret matching, and uses advantage network to replace cumulative regret table.
+
+Current model SB preflop strategy heatmap (Iteration 175):
+!(https://github.com/ghaisman/Deep-CFR-for-HULHE/blob/main/Iter_175_benchmark/preflop_raise_heatmap_175.png)
