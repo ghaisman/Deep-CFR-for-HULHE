@@ -10,5 +10,5 @@ network.py contains the network architecture used for the Strategy and Advantage
 
 traversal.py contains the cfr traversal logic. Almost identical to MCCFR traversal, but uses slightly modified regret matching, and uses advantage network to replace cumulative regret table.
 
-**Current model SB preflop strategy heatmap (Iteration 200):**
-![](https://github.com/ghaisman/Deep-CFR-for-HULHE/blob/main/Iter_200_benchmark/preflop_raise_heatmap_200.png)
+**Current model (300 epochs) Vs Human players (4000+ hands, ~179mbb/g):**
+![](https://github.com/ghaisman/Deep-CFR-for-HULHE/blob/main/analysis.png)
